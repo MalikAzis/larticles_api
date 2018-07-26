@@ -8,22 +8,22 @@ php artisan migrate
 
 php artisan db:seed
 
-## Endpoints Api
+# Endpoints Api
 
-# List All Articles
+## List All Articles
 GET api/articles
 
-# Get single Article
+## Get single Article
 GET api/article/{id}
 
-# Delete 
+## Delete 
 DELETE api/article/{id}
 
-# Insert new Article
+## Insert new Article
 POST api/article
     'title', 'body'
 
-# Update 
+## Update 
 
 PUT api/article
     'article_id', 'title', 'body'
