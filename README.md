@@ -1,7 +1,7 @@
 # larticles_api
 
-# migrate database
+#migrate database
 php artisan migrate
 
-# insert seed
+#insert seed
 php artisan db:seed
